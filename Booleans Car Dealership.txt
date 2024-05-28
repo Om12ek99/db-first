@@ -1,0 +1,19 @@
+Booleans Car Dealership
+--------------------*********************-----------------
+
+car_model                       VARCHAR(150) -  NOT NULL
+car_manufacturer                VARCHAR(150) - NOT NULL
+immatriculation_year            UNSIGNED SMALLINT
+price                           DECIMAL(9,2) - NOT NULL
+km                              UNSIGNED INT - NOT NULL                         
+engine_dimension                UNSIGNED SMALLINT - NOT NULL
+fuel                            TEXT
+power_kw                        UNSIGNED SMALLINT - NOT NULL
+photos                          TEXT
+condition                       TEXT
+optionals                       TEXT
+weight                          TINYINT
+doors                           VARCHAR (10)
+previous_owners                 VARCHAR (10)
+enviromental_class              SMALLINT 
+description                     TEXT
